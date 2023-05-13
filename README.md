@@ -7,6 +7,9 @@ HUGGINGFACEHUB_API_TOKEN='<your_API_TOKEN>'
 How to get API_TOKEN
 https://huggingface.co/docs/hub/security-tokens
 
+It uses a HuggingFace model for embeddings, then searches for the most relevant chunks for the question
+and makes the final answer with GPT4ALL.
+
 You can change the HuggingFace model for embedding, if you have a better one, please let me know.
 
 The GPT4ALL is good but slow, if you find a better option, please let me know.
